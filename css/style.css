@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@300..900&display=swap");
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 1;
+}
+.navbar-lightOrange {
+  background-color: #feb95f;
+  color: #090446;
+}
+
+.navbar-nav .nav-link {
+  font-size: large;
+  color: navy;
+}
+
+.courgette-font {
+    font-family: 'Courgette', cursive;
+    color: #090446;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+.nav-link {
+    box-shadow: inset 0 0 0 0 #f39f32;
+    color: #f39f32;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav-link:hover {
+    box-shadow: inset 200px 0 0 0 #f39f32;;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 10px; 
+    }
+   
+}
+@media (max-width: 1000px) {
+  .courgette-font {
+    font-size: 25px;
+    }
+}
+
+.parallax {
+	background-image: url("/img/Food_pic.jpg");
+	height: 776px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+  
+}
+
+.celeb {
+    font-family: 'Courgette', cursive;
+    color: #090446;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .celeb {
+    font-size: 30px;
+    }
+}
+
+.custom-paragraph-spacing {
+    line-height: 1.7; /* Adjusts line height */
+    color: #3E4095; /* Changes text color */
+    font-size: 26px; /* Changes font size */
+    margin-top: 15px; /* Adjusts top margin */
+    font-weight: 500;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .custom-paragraph-spacing  {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 15px;
+    }
+}
+
+.card-img {
+    width: 495px;
+    height: 538px;
+}
+
+@media (max-width: 1024px) {
+  .card-img {
+        width: 350px;
+        height: 378px;
+    }
+}
+
+.shadow-left {
+    box-shadow: -12px 0px 15px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+.sadza { 
+    justify-content: center;  
+} 
+
+  .cocktailImg { 
+  height: 411px;
+  width: 215px ;
+  margin-left: 20%;
+}
+
+.cstm-paragraph-spacing {
+  line-height: 1.7; /* Adjusts line height */
+  color: #3E4095; /* Changes text color */
+  font-size: 26px; /* Changes font size */
+  margin-top: 15px; /* Adjusts top margin */
+  font-weight: 500;
+  text-align:end;
+}
+
+@media (max-width: 768px) {
+.cstm-paragraph-spacing  {
+  font-size: 20px;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cocktailImg_a {
+    display: none;
+    }
+}
+.celeb_P {
+  font-family: 'Courgette', cursive;
+  color: #090446;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+.celeb_P {
+  font-size: 30px;
+  text-align: start;
+  padding-left: 15px;
+  }
+}
+
+.getintouch-txt {
+  padding-top:50px;
+  text-align: center;
+  font-style: italic;
+  color:#090446
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn_getintouch {
+  background-color: #090446; /* Change to desired background color */
+  color: white; /* Change to desired text color */
+  padding: 10px 20px; /* Add padding for better appearance */
+  font-size: 16px; /* Adjust font size */
+  border-radius: 5px; /* Optional: add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.btn_getintouch:hover {
+  background-color: #12059e; /* Darker shade for hover effect */
+  /*border-color: #2c3073; /* Match border color on hover */
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #f8f9fa; /* Optional: background color for the footer */
+  padding: 20px 0; /* Optional: padding for the footer */
+}
+
+.list-unstyled li {
+  display: inline-block; /* Display list items in a line */
+  margin: 0 px; /* Optional: space between links */
+  
+}
+
+.list-unstyled a {
+  text-decoration: none; /* Remove underline from links */
+  font-size: 20px;
+  font-weight: 500;
+  color: #090446;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+.location {
+  width: 20px;
+  height: 26.6px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+.phone {
+  width: 20px;
+  height: 20px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+.whatsapp {
+  width: 25px;
+  height: 25px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+.mail {
+  width: 25px;
+  height: 25px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+.copyright {
+  width: 15px;
+  height: 15px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  margin-right:5px
+}
+
+/* modal */
+
+.custom-modal-dialog {
+  max-width: 1000px; /* Adjust the width as needed */
+  width: 100%;
+}
+.wine_n_glass {
+  width: 400px;
+  height: auto;
+}
+
+.custom-modal-content {
+  background-image: url('/img/background.png');
+  background-size: cover; /* Ensures the image covers the whole modal */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+
+.custom-card {
+  border-radius: 10px;
+  width: 450px;
+  height:auto;
+  background-color: #c9def3;
+}
+.btn_submit {
+  background-color: #090446; /* Change to desired background color */
+  color: white; /* Change to desired text color */
+  padding: 10px 20px; /* Add padding for better appearance */
+  font-size: 16px; /* Adjust font size */
+  border-radius: 5px; /* Optional: add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top:25px;
+  margin-bottom:20px;
+}
+
+.btn_submit:hover {
+  background-color: #12059e; /* Darker shade for hover effect */
+  /*border-color: #2c3073; /* Match border color on hover */
+}
+
+.form-control {
+  background-color: #F47D91;  
+}
+
+.form-control::placeholder {
+  color: #12059e;  
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 0;
+}
+.modal-header .btn-close {
+  margin-left: auto; /* Pushes the button to the far right */
+}
+
+/* Style for the modal footer */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 0;
+}
+

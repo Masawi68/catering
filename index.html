@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- endbuild -->
+
+    <title>Something Catering</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-lightOrange navbar-expand-sm fixed-top">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" height="70" width="140" class="logo" />
+          </a>
+          <div class="courgette-font d-none d-md-block">Something Catering</div>
+        </div>
+
+        <!-- Toggler for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- parallax -->
+    <div class="parallax d-none d-md-block"></div>
+
+    <section class="container-fluid pt-5 pb-5" style="background-color: #d9cca4">
+      <div class="row">
+        <div class="txt col-12 col-md-6">
+          <h1 class="celeb ms-3 ms-md-5 mt-3 mt-md-0">Celebration</h1>
+          <p class="custom-paragraph-spacing ms-3 ms-md-5 mb-4">
+            At Something Catering, we treat each event with the meticulous care
+            it warrants. Collaborating closely with you at every stage, we
+            infuse each occasion with our natural flair for sophistication and
+            elegance. We excel in hosting upscale cocktails, seated and buffet
+            dinners, weddings, galas, and charity events. Rooted in traditional
+            Zimbabwean cuisine, we tailor every menu to suit your specific
+            needs, ensuring you experience the finest in Zimbabwean hospitality.
+          </p>
+        </div>
+        <div class="d-flex col-md-6 sadza">
+          <img
+            src="img/Sadza.jpg"
+            class="card-img rounded-5 shadow-left"
+            alt="Food Image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/rice_n_chicken.png" class="d-block w-100" alt="rice">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Sadza_n_zondo.png" class="d-block w-100" alt="zondo">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCatering" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCatering" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- perfect -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 mt-5 cocktailImg_a">
+            <img src="img/cocktail.png" class="cocktailImg" alt="cocktail"/>
+          </div>
+          <div class="col-12 col-md-6 perfect">
+            <h1 class="celeb_P mt-5 me-0 me-md-2">
+              Perfect for every event
+            </h1>
+            <p class="cstm-paragraph-spacing me-0 me-md-2">
+              We’re ready to help you with any event, from baby showers and graduations, to 
+              weddings and galas, to corporate cocktails and sit down dinners. We’re deeply 
+              committed to making your event unforgettable with fabulous food and impeccable 
+              service. Whether you’re planning an intimate dinner at home, or a wedding, we’ll 
+              bring our creativity and expertise to your occasion.
+            </p>
+          </div>
+          <div class="d-md-none col-12 cocktailImg_b d-flex justify-content-center pe-5">
+            <img src="img/cocktail.png" class="cocktailImg" alt="cocktail"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- get in touch -->
+  <section class="mt-5" style="background-color: #FEBC67;">
+    <div class="container-fluid bg-custom1">
+      <h2 class="getintouch-txt">
+          <p>Let's discuss how we can create an unforgettable</p>
+          experience for your next event.
+      </h2>
+      <div class="button-container">
+          <button type="button" class="btn btn-primary btn_getintouch" data-bs-toggle="modal" data-bs-target="#get">Get in touch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal -->
+
+  <section>
+    <div class="modal" id="get">
+        <div class="modal-dialog custom-modal-dialog">
+            <div class="modal-content custom-modal-content">
+    
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 modal_pic">
+                            <img src="img/wine_and_glasses.png" alt="wine" class="wine_n_glass">
+                        </div>
+                        <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                <h2>Get in touch</h2>
+                                <form class="form ">
+                                        <div class="row mt-4">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Enter First Name" name="name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Enter Last Name" name="lastname">
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Enter Email" name="email">
+                                            </div>
+                                            <div class="col">
+                                                <input type="phone" class="form-control" placeholder="Enter phone number" name="phonenumber">
+                                            </div>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <textarea class="form-control" placeholder="type your message" name="text"></textarea>
+                                        </div>
+                                    </form>
+                                    <div class="button-container1">
+                                        <button type="button" class="btn btn-primary btn_submit">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--footer -->
+
+  <footer class="footer" >
+      <div class="container-fluid text-center">
+          <div class="li">
+              <ul class="list-unstyled"> <!--To remove the bullets-->
+                 <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">Home</a></li>
+                 <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="/about.html">About</a></li>
+                 <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">Gallery</a></li>
+                 <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="d-inline">
+              <p class="address" style="margin-top:30px; font-family: merienda; font-size: 25px; color: #090446; font-weight: bolder;">
+                  <span><img src="img/location-dot-solid.svg" alt="location" class="location"></span>:2243 Acacia Rd Westgate Area D Harare 
+                  <span><img src="img/phone-solid.svg" alt="phone" class="phone"></span>: 077 435 4369  
+                  <span><img src="img/whatsapp-brands-solid.svg" alt="whatsapp" class="whatsapp"></span>: 077 435 4369 
+                  <span><img src="img/envelope-solid.svg" alt="mail" class="mail"></span>: edmasawi@ymail.com
+              </p>
+          </div>
+          <p class="copy" style="margin-top: 35px; font-size:20px"><span><img src="img/copyright-regular.svg" alt="copyright" class="copyright"></span>Copyright 2024 something catering</p>
+      </div>
+  </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

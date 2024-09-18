@@ -1,0 +1,23 @@
+{
+  "name": "catering",
+  "version": "1.0.0",
+  "description": "This is a website for Something Catering",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "5.3.3",
+    "bootstrap-social": "^5.1.1",
+    "jquery": "^3.3.1"
+  }
+}
