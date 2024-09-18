@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "start": "lite-server",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "build": "cssmin css/style.css > css/style.min.css",  
+    "postinstall": "npm run build" 
   },
   "author": "",
   "license": "ISC",
@@ -21,3 +23,4 @@
     "jquery": "^3.3.1"
   }
 }
+
