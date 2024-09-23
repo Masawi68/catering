@@ -35,3 +35,22 @@ document.querySelector('.btn_submit').addEventListener('click', function(e) {
     modalInstance.hide(); // Hide the modal
   }
 });
+
+document.querySelector('.btn_submit').addEventListener('click', function(e) {
+  // Prevent the form from submitting initially
+  e.preventDefault();
+
+  // Get all form fields
+  const firstName = document.querySelector('input[id="fname"]').value.trim();
+  const email = document.querySelector('input[id="email"]').value.trim();
+  const phone = document.querySelector('input[id="phone"]').value.trim();
+  const message = document.querySelector('textarea[id="message"]').value.trim();
+
+  // Check if any of the fields is empty
+  if (!firstName || !email || !phone || !message) {
+    alert('Please fill out the mandatory fields.');
+  } else {
+    // If all fields are filled, submit the form or perform an action
+    alert('Thank you for submitting your message!');
+  }
+});

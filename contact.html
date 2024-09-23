@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- endbuild -->
+
+    <title>Something Catering</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-lightOrange navbar-expand-sm fixed-top">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="./index.html">
+            <img src="img/logo.png" height="70" width="140" class="logo" />
+          </a>
+          <div class="courgette-font d-none d-md-block">Something Catering</div>
+        </div>
+
+        <!-- Toggler for small screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!--img -->
+
+   <figure class="img mb-5" style="background-image: url('img/chickenNchips.png'); height: 500px; background-size: cover;  background-position: center; background-repeat:no-repeat;"></figure>
+
+    <!--contact us -->
+
+    <section class="container mb-5">
+      <h1 class="contactUs">Contact Us</h1>
+      <form class="contactus">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="First Name">
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="Lname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" placeholder="Last Name" id="Lname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" placeholder="Phone Number" id="phone">
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="textarea" class="form-label">Message</label>
+          <textarea class="form-control" id="message" placeholder="Your message here ..."></textarea>
+        </div>
+        <button type="button" class="btn btn-primary btn_submit">Submit</button>
+      </form>
+    </section>
+    
+
+   <!--footer -->
+
+    <footer class="footer">
+        <div class="container-fluid text-center">
+            <div class="li">
+                <ul class="list-unstyled"> <!--To remove the bullets-->
+                  <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">Home</a></li>
+                  <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">About</a></li>
+                  <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="#">Gallery</a></li>
+                  <span><img src="img/dot.svg" alt="dot" class="dot"></span><li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="d-inline">
+                <p class="address" style="margin-top:30px; font-family: merienda; font-size: 25px; color: #090446; font-weight: bolder;">
+                    <span><img src="img/location-dot-solid.svg" alt="location" class="location"></span>:2243 Acacia Rd Westgate Area D Harare 
+                    <span><img src="img/phone-solid.svg" alt="phone" class="phone"></span>: 077 435 4369  
+                    <span><img src="img/whatsapp-brands-solid.svg" alt="whatsapp" class="whatsapp"></span>: 077 435 4369 
+                    <span><img src="img/envelope-solid.svg" alt="mail" class="mail"></span>: edmasawi@ymail.com
+                </p>
+            </div>
+            <p class="copy" style="margin-top: 35px; font-size:20px"><span><img src="img/copyright-regular.svg" alt="copyright" class="copyright"></span>Copyright 2024 something catering</p>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
