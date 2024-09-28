@@ -197,7 +197,7 @@ body {
 /* footer */
 
 .footer {
-  background-color: #f8f9fa; /* Optional: background color for the footer */
+  background-color: #D7DBF5; /* Optional: background color for the footer */
   padding: 20px 0; /* Optional: padding for the footer */
 }
 
@@ -390,4 +390,39 @@ form.contactus textarea {
   color: #090446; /* This will make the text contrast better */
 }
 
+.required {
+  color: red;
+  font-weight: bold;
+}
 
+/* gallary */
+
+.img2 img{
+  height: 475px; /* Set the height you prefer */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.img3 img{
+  height: 475px; /* Set the height you prefer */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.img4 img{
+  height: 500px; /* Set the height you prefer */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.img5 img{
+  height: 500px; /* Set the height you prefer */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.parallax1 {
+	background-image: url("/img/galleryImg/gathering.jpg");
+	height: 776px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+  
+}
