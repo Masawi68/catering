@@ -73,7 +73,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   };
 
   try {
-    const response = await fetch('http://localhost:3000/submit-contact', {
+    const response = await fetch('https://cateringserver.onrender.com/submit-contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -130,7 +130,7 @@ async function handleSubmit() {
     };
 
     try {
-      const response = await fetch('http://localhost:3000/submit-getintouch', {
+      const response = await fetch('https://cateringserver.onrender.com/submit-getintouch', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
